@@ -1,5 +1,5 @@
 FROM centos:7
 
-LABEL maintainer="kurtstam@redhat.com"
+LABEL maintainer="Kurt Stam <kstam@redhat.com>"
 
 COPY bin/docker /usr/bin/docker
