@@ -1,6 +1,6 @@
 # docker-manifest
 
-https://github.com/docker/cli/pull/138
+https://github.com/docker/cli/pull/138 (binary downloadable from https://circleci.com/gh/docker/cli/5707#artifacts/containers/0)
 
 Early build of the docker cli which includes manifest functinality
 
