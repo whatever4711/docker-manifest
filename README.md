@@ -4,7 +4,7 @@ https://github.com/docker/cli/pull/138
 
 Early build of the docker cli which includes manifest functinality
 
-Usage:	`docker run  -v /var/run/docker.sock:/var/run/docker.sock --rm project31/docker-manifest /bin/bash -c 'docker manifest COMMAND'`
+Usage:	`docker run  -v /var/run/docker.sock:/var/run/docker.sock --rm project31/docker-manifest /bin/bash -c "docker manifest COMMAND"`
 
 Manage Docker image manifests and manifest lists
 
@@ -19,4 +19,4 @@ Commands:
   push        Push a manifest list to a repository
 ```
 
-Run `docker run  -v /var/run/docker.sock:/var/run/docker.sock --rm project31/docker-manifest /bin/bash -c 'docker manifest COMMAND --help` for more information on a command.
+Run `docker run  -v /var/run/docker.sock:/var/run/docker.sock --rm project31/docker-manifest /bin/bash -c "docker manifest COMMAND --help"` for more information on a command.
